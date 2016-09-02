@@ -1,0 +1,77 @@
+html * {
+	font-family:'Raleway', sans-serif;
+	box-sizing:border-box
+}
+body {
+	font-size:16px;
+	background-color:cornflowerblue;
+}
+
+ul, li {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+legend {
+	text-align:center;
+	font-size:30px;
+	display:block;
+	margin:20px auto;
+}
+
+form {
+	width:400px;
+	margin:0 auto;
+	background-color:#fff;
+	padding:20px 40px 40px;
+	border-radius:4px;
+}
+.logo {
+	display:block;
+	margin:20px auto;
+}
+label, input, button {
+	width:100%;
+	display:block;
+	font-size:16px;
+	margin-bottom:15px;
+}
+
+input {
+	padding:15px;
+}
+#password {
+	margin-bottom:25px;
+}
+
+button {
+	border-radius:4px;
+	-webkit-appearance:none;
+	appearance:none;
+	border:2px solid mediumseagreen;
+	background-color:mediumseagreen;
+	color:#fff;
+	font-size:18px;
+	padding:15px;
+}
+button:hover {
+	background-color:#03aa80;
+}
+
+.forgotpassword {
+	display:block;
+	text-align:center;
+	font-size:13px;
+	color:#999;
+}
+.loginLink {
+	color:white;
+}
+.login{
+	color:#fff;
+	font-weight:bold;
+	text-align;center;
+	width:400px;
+	text-align:center;
+	margin:10px auto;
+}
